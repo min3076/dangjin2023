@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<script type="text/javascript">
+
+    if (document.location.protocol == 'https:') {
+        document.location.href = document.location.href.replace('https:', 'http:');
+    }
+</script>
+<div class="minwon_yesan_frame">
+  		<iframe src="http://eminwon.dangjin.go.kr/emwp/jsp/ofr/OfrNotAncmtL.jsp?not_ancmt_se_code=01,02,03,04,05,06&list_gubun=A"  title="고시/공고 페이지입니다." id="mergerFrame" ></iframe>
+</div>
