@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/** 연혁 **/
+.tab-ul.deth-4st.history{overflow:hidden;margin-bottom:0;padding:15px 0;border:1px solid transparent;border-top-color:#ddd;border-bottom-color:#ddd}
+.tab-ul.deth-4st.history li{position:relative;margin-right:30px}
+.tab-ul.deth-4st.history li:before{content:"";display:block;position:absolute;top:50%;left:-15px;margin-top:-7px;width:1px;height:14px;background-color:#ddd}
+.tab-ul.deth-4st.history li a{height:auto;border-color:transparent;border-radius:3px}
+.tab-ul.deth-4st.history li a span{padding:10px 0;font-size:16px;color:#000}
+.tab-ul.deth-4st.history li a:hover,
+.tab-ul.deth-4st.history li a:focus{background-color:transparent}
+.tab-ul.deth-4st.history li a:hover span,
+.tab-ul.deth-4st.history li a:focus span{text-decoration:underline}
+.tab-ul.deth-4st.history li.on a span{padding:10px 35px;color:#fff}
+.history_box{margin-top:20px}
+.history_box .history_bg,
+.history_box .history_bg h2{font-weight:600}
+.history_box p.tit{margin-top:20px;font-size:35px;color:#484848;line-height:40px}
+.history_box p.tit span{display:block;font-size:25px;color:#d2d2d2}
+.history_box .list_1st{position:relative}
+.history_box .list_1st:before{display:block;content:"";position:absolute;left:16px;top:20px;width:1px;height:94%;background:#ddd}
+.history_box .list_1st li{position:relative;padding-top:10px;padding-bottom:15px;background:none;overflow:hidden}
+.history_box .list_1st li:after{display:block;position:absolute;left:30px;bottom:0; content:"";width:100%;height:1px;border-bottom:1px dashed #ddd}
+
+.history_box .list_1st li span{float:left}
+.history_box .list_1st li span.year{width:100px;font-size:18px;color:#f45e0d;}
+.history_box .list_1st li span.year:before{display:inline-block;content:"";margin-right:15px;width:12px;height:12px;background:url(/images/dj1388/sub01/list_red_bul.png) no-repeat;vertical-align:middle}
+.history_box .list_1st li span.info{margin-top:7px;padding-left:5%;width:60%;line-height:1.2}
+.history_box .list_1st li span.info em{display:block}
+
+/* 대학연혁 */
+.history_box{overflow:hidden;}
+.history_box .list_1st li span.year{width:100%;font-size:26px}
+.history_box .list_1st li span.info{margin-top:10px;margin-left:10px;width:66%;font-size:16px}
+.history_box p.tit{margin-top:0}
+.history_box .list_1st{float:left;width:100%}
+.history_box .list_1st:before{top:35px;height:89%;}
+
+@media(min-width:1024px){
+.history_box .history_bg{float:left;margin-top:30px;width:45%;height:700px;background:url(/images/dj1388/sub01/history01.png) no-repeat}
+.history_box .history_bg{background-position:58px 51px;}
+.history_box p.tit{/*margin-left:45px;*/font-size:55px} 
+.history_box p.tit span{font-size:33px}
+.history_box .list_1st:before{height:90%;left:68px;}
+.history_box .list_1st{width:54%;padding-left:52px;}
+.history_box .list_1st li span.year{width:100%}
+.history_box .list_1st li span.info{width:100%}
+}
+
+
+

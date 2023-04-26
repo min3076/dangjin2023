@@ -1,0 +1,450 @@
+@charset "utf-8";
+
+/* 주민참여예산 */
+.point-bg{background-color:#F4F6F8;}
+.point-bg2{background-color:#DFD4D4;}
+
+
+.searchwrap-top{padding:20px 25px;}
+.searchwrap-top h3{margin:0;font-size:16px;}
+
+.searchwrap-top .sort_wrap{margin-top:15px;}
+
+.searchwrap-top .btn_add h3,
+.searchwrap-top .btn_add .btn{display:inline-block;vertical-align:middle;}
+.searchwrap-top .btn_add .btn{margin-left:8px;}
+
+.searchwrap-top .method_wrap strong{display:block;margin-top:10px;color:#1a2273;}
+.searchwrap-top .method_wrap ul{margin:5px 0 0 0;}
+.searchwrap-top .method_wrap ul li{margin:0;font-size:14px;}
+
+.border-box{padding:20px 15px;border:1px solid #ddd;}
+
+
+
+[class^="form-"] input[type="text"],[class^="form-"] input[type="password"]{width:100%;height:38px;padding:0 5px;line-height:38px}
+[class^="form-"] select{width:100%;height:38px;padding:0 5px;line-height:38px}
+
+
+.form_find{display:inline-block;padding:5px 10px;border:1px solid #ddd}
+
+.form-mail>*,
+.form-birthday>*,
+.form-max>*{margin-top:5px}
+
+.form-max.w80p input{width:80%;}
+
+.form-mail>*:first-child,
+.form-birthday>*:first-child,
+.form-max>*:first-child{margin-top:0}
+.form-max span input[type="radio"]{margin:0 5px 0 10px}
+.form-max span:first-child input[type="radio"]{margin-left:0}
+.form-max .post{width:100%;overflow:hidden}
+.form-max .post input{width:31%;float:left;}
+.form-max .post .form_find{margin-left:5px;}
+.form-max .adress_detail{width:100%;}
+
+/*.form-tel,.form-birthday,.form-mail{margin-bottom:10px}*/
+
+.form-tel{overflow:hidden}
+.form-tel div{float:left;width:28%}
+.form-tel div.mid{width:8%;text-align:center;line-height:40px}
+.form-tel div input,.form-tel div select{text-align:center;text-indent:0}
+.form-tel.width75p{width:75%}
+
+.form-mail{overflow:hidden}
+.form-mail div{float:left;width:31%;margin-top:0}
+.form-mail div.mid{width:5%;text-align:center;line-height:40px}
+.form-mail div.last{margin-left:1%;width:32%}
+
+.form-birthday{}
+.form-birthday:after{content:"";display:block;clear:both}
+.form-birthday select{float:left;width:32.3%;margin:0 0 0 1%;text-align:center}
+.form-birthday select:first-child{margin-left:0}
+
+.form-half select,.form-half input[type="text"]{width:50%}
+
+.form-select-input:after{display:block;content:"";clear:both;visibility:hidden;}
+.form-select-input select,.form-select-input input[type="text"]{float:left;width:28%;} 
+.form-select-input input[type="text"]{margin-left:1%;width:71%;}
+
+.form-period:after,
+.form-period div:after{display:block;content:"";clear:both;visibility:hidden;}
+.form-period div{float:left;width:46%;}
+.form-period div.mid{width:8%;line-height:40px;text-align:center;}
+.form-period div select{float:left;width:49%;}
+.form-period div select:first-child{margin-right:2%;}
+
+@media(max-width:768px){
+.form-half select,.form-half input[type="text"]{width:100%}
+
+}
+
+.form-radio label{display:inline-block;width:20%}
+.form-radio input[type="radio"],
+.form-radio input[type="checkbox"]{position:relative;top:-1px}
+.form-radio .etc{margin:10px 0}
+.form-radio .etc label{width:auto;margin-right:10px}
+.form-radio .etc input[type="text"]{width:300px}
+
+.form-radio.clear_width label{width:auto}
+
+.form-radio.block label{display:block;}
+.form-radio.block .text-indent{margin:5px 0 10px 20px;}
+.form-radio.block .text-indent label{margin-left:10px;}
+
+
+@media(max-width:767px){
+.form-radio label{width:auto;padding:3px}
+
+}
+
+.form-edu{}
+.form-edu:after{content:"";display:block;clear:both}
+.form-edu div{margin-right:20px}
+.form-edu label{margin-right:15px}
+.form-edu input,.form-edu select{width:auto}
+.form-edu .edu_year,.form-edu .edu_name{display:inline-block}
+.form-edu .edu_name input{width:200px}
+
+@media(max-width:767px){
+.form-edu .edu_year,.form-edu .edu_name{display:block;margin-top:10px;text-align:center}
+.form-edu .edu_name label{display:block}
+.form-edu .edu_name input{width:100%}
+.form-edu .form_find{display:block;width:100px;margin:10px auto;text-align:center}
+
+}
+
+
+.form-career{}
+.form-career label{margin-left:10px}
+.form-career input{width:50px;margin-right:5px;text-align:center;text-indent:0}
+
+.apply_report{margin:50px 0;font-size:20px}
+.apply_report span{display:block;color:#000}
+
+.table_row{overflow:hidden}
+.table_row .photobox{display:table;float:right;width:180px;height:190px;border:1px solid #ddd}
+.table_row .photobox .inner{display:table-cell;text-align:center;vertical-align:middle}
+.table_row .tablebox{margin-right:200px}
+
+@media(max-width:640px){
+
+.table_row .photobox{float:none;width:100%;margin-bottom:20px}
+.table_row .tablebox{margin-right:0}
+
+
+}
+
+
+.resultbox{padding:100px 0;text-align:center;border:solid #ddd;border-width:2px 0 1px;border-top-color:#787878;background-color:#fafafa}
+.resultbox p{margin-top:30px;font-size:24px}
+.resultbox p span{color:#036240}
+.resultbox .icon{display:block;width:108px;height:53px;margin:0 auto;background:url(/images/admissions/bundle/bg_ci.gif) no-repeat}
+.resultbox.clear_padding{padding:0;text-align:left;overflow:hidden}
+
+.resultbox .post{padding:30px}
+.resultbox .post .post_title{float:left}
+.resultbox .post .post_title:before{content:"";display:inline-block;width:18px;height:14px;margin-right:10px;vertical-align:baseline;background:url(/images/admissions/bundle/posts_icon.png) no-repeat}
+.resultbox .post .post_address{padding-left:170px}
+.resultbox .post .post_address span{color:#19694c}
+
+
+.resultbox .result-body{padding:20px 30px}
+.resultbox .result-body *:first-child{margin-top:0} 
+
+@media(max-width:768px){
+.resultbox .post{padding:30px 10px}
+.resultbox .post .post_title{display:block;float:none;margin-bottom:10px}
+.resultbox .post .post_address{padding-left:0}
+
+}
+
+.resultbox .report{padding:50px 0;text-align:center;background:#fff}
+.resultbox .report .icon{width:100px;height:100px;background:url(/images/admissions/bundle/posts_icon.png) no-repeat}
+.resultbox .report .icon1{background-position:-50px 0}
+.resultbox .report .icon2{background-position:-150px 0}
+
+.introducebox{overflow:hidden;border-top:2px solid #787878;background-color:#fafafa}
+.introducebox .byte_init{margin:20px;font-size:18px}
+.introducebox .byte_init span{display:inline-block;margin-left:20px}
+.introducebox .byte_init span:first-child{margin-left:0}
+.introducebox .byte_init .this_byte{width:100px;margin:0 10px;text-indent:0;text-align:center}
+.introducebox .form-textarea{margin:0 20px 20px}
+.introducebox .form-textarea textarea{height:300px;padding:10px}
+
+@media(max-width:767px){
+.introducebox .byte_init span{display:block;margin:10px 0 0 0}
+.introducebox .byte_init span:first-child{margin-top:0}
+
+}
+
+@media(max-width:640px){
+.introducebox .byte_init{margin:20px;font-size:14px}
+
+}
+
+.responsebox{}
+.responsebox .mover{display:none}
+.responsebox ul.list_1st.info{}
+.responsebox ul.list_1st.info li{padding:7px 0 7px 160px;border-bottom:1px solid #ddd;background-position:0 17px}
+.responsebox ul.list_1st.info b{display:inline-block;width:150px;margin-left:-150px}
+
+@media(max-width:767px){
+
+.responsebox{}
+.responsebox .pcver{display:none}
+.responsebox .mover{display:block}
+
+.tbl_basic.response,
+.tbl_basic.response thead,
+.tbl_basic.response tbody,
+.tbl_basic.response tr,
+.tbl_basic.response th,
+.tbl_basic.response td{display:block;border-width:1px 0}
+.tbl_basic.response th{border-bottom-width:0}
+
+}
+
+
+input.btn.btn-ani{padding:8px 15px 7px 15px;font-size:14px;line-height:1.42857143;}
+input.btn-primary, input.btn-primary.disabled, input.btn-primary, input.btn-primary:link, input.btn-primary:visited{background-color:#ee402e;border-color:#ee402e;}
+
+
+
+/* 시민대상 */
+.ui.uit .inner h2.tit_inner{padding-left:0;background:none;}
+
+
+/* 채용공고 */
+.btn-width-same .btn{width:68px;}
+
+
+/* 모집/공모 */
+.tbl_basic a.bico.bticon.file{vertical-align:middle;}
+
+/* 공유재산안내 */
+.ui.uit.list .inner .txtwrap li{background-position:2px 6px;}
+
+@media only screen and (min-width: 768px){
+.ui.uit.type1.list .inner .tp_icon.circle{top:45px;}
+}
+
+
+.basic_box.no-border{margin:0;padding:0;border:0;}
+.board_total{background-position:0 10px;}
+
+.select_search_box{padding:30px 15px;border:solid #ccc;border-width:1px 0;background:#f5f5f5}
+.select_search_box ul:after{display:block;content:"";clear:both;visibility:hidden;}
+.select_search_box ul li{float:left;width:100%;margin-bottom:10px}
+
+.select_search_box label{float:left;width:40%;font-size:15px;color:#38393c}
+.select_search_box .form_block{float:left;width:60%}
+.select_search_box select,
+.select_search_box input{width:100%;padding:0}
+.select_search_box input[type="text"]{height:28px;line-height:28px;text-indent:10px;background:#fff}
+
+.select_search_box .date_block{}
+.select_search_box .date_block input{background:#fff url(/images/prog/common/share_asset_icon.png) no-repeat 100% -54px}
+.select_search_box .date_block span{display:none}
+.select_search_box .date_block span+input{margin-top:5px}
+
+.select_search_box .checked_block{}
+.select_search_box .checked_block:after{content:"";display:block;clear:both}
+.select_search_box .checked_block label{float:left;width:100%;line-height:28px;}
+.select_search_box .checked_block label input{display:inline-block;width:auto}
+.select_search_box .checked_block input[type="search"]{height:auto;font-weight:600;font-size:16px}
+
+.select_search_box .search_box{width:100%;overflow:hidden;text-align:center}
+.select_search_box .search_box input[type="submit"]{height:auto;padding:15px 0;background:#6C748B;border:1px solid #6C748B;font-size:16px}
+
+.select_search_box .search_box input[type="submit"]:hover,
+.select_search_box .search_box input[type="submit"]:active,
+.select_search_box .search_box input[type="submit"]:focus{background-color:#45495b;border-color:#45495b;}
+
+@media(min-width:640px){
+	.select_search_box .checked_block label{width:40%;}
+	.select_search_box .checked_block input[type="text"]{width:60%;}
+}
+
+
+@media(min-width:768px){
+	.select_search_box{position:relative;padding:30px 0 20px 0;margin-bottom:20px}
+	.select_search_box label:before{content:"";display:inline-block;width:30px;height:28px;vertical-align:middle;background:url(/images/prog/common/share_asset_icon.png) no-repeat}
+	.select_search_box label,
+	.select_search_box select,
+	.select_search_box input[type="text"],
+	.select_search_box .checked_block input[type="search"]{height:40px;line-height:40px}
+
+	.select_search_box .locate_block label:before{background-position:0 3px}
+	.select_search_box .ordcd_block label:before{background-position:-28px 4px}
+	.select_search_box .realm_block label:before{background-position:-57px 2px}
+	.select_search_box .target_block label:before{background-position:-87px 3px}
+	.select_search_box .date_block label:before{background-position:-119px 3px}
+
+	.select_search_box .checked_block label{width:auto;height:40px;line-height:40px;letter-spacing:-1px;}
+	.select_search_box .checked_block label:before{display:none}
+	.select_search_box .search_box input[type="submit"]{padding:0;width:100%;height:40px;line-height:40px;text-indent:32px;background:#6C748B url(/images/common/search_ico.png) no-repeat 35px 50%;}
+
+	.select_search_box ul li{width:44%;margin:0 3% 10px}
+	.select_search_box .date_block,
+	.select_search_box .checked_block{width:93.8%}
+	.select_search_box .checked_block{position:relative;z-index:10;margin-top:10px;padding-right:24%;text-align:right;}
+
+	.select_search_box .date_block label{width:14.2%}
+	.select_search_box .date_block .form_block{width:85.8%}
+	.select_search_box .date_block .form_block input,
+	.select_search_box .date_block .form_block span{display:block;float:left;margin:0}
+	.select_search_box .date_block .form_block input{width:47.1%;background-position:100% -48px}
+	.select_search_box .date_block .form_block span{width:5%;height:40px;line-height:40px;text-align:center}
+
+	.select_search_box .checked_block input[type="text"]{width:75%}
+
+
+	.select_search_box .search_box{position:absolute;right:0;top:140px;margin:0 3%;padding:0;width:22%;text-align:right;z-index:99}
+
+}
+
+@media(min-width:1024px){
+	.select_search_box .checked_block label{letter-spacing:normal;}
+}
+
+
+
+/* 시민정보화교육 안내 */
+.ui.uit .inner .txtwrap p.txt-tip{color:#da4453;}
+h2.mt_15{margin-top:15px;}
+
+@media(min-width:1199px){
+	.tab-ul.tab-col.col5 li{width:20%;}
+}
+
+/* 시민정보화교육_신청자명단확인 팝업 */
+form fieldset, legend{border:0;}
+legend{position:absolute;visibility:hidden;left:0;top:0;width:1px;height:1px;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999px}
+
+.dep_detail{z-index:100;position:fixed;top:10%;left:50%;width:700px;margin-left:-350px;border:1px solid #ddd}
+.dep_detail.popup{position:static;margin:0;width:100%;border:0;}
+.dep_detail .title{position:relative;height:70px;padding:0 0 0 20px;font-size:24px;background:#036240;color:#fff}
+.dep_detail .title:before{content:"";display:inline-block;height:110%;vertical-align:middle}
+.dep_detail .title .exit{position:absolute;top:0;right:0;width:70px;height:100%;overflow:hidden;background:#002610 url(/images/common/layer_exit.gif) no-repeat 50% 50%}
+.dep_detail .title .exit:before{content:"";display:block;height:110%}
+.dep_detail .pt{overflow:hidden;background:#fafafa}
+.dep_detail .pt .inner{height:450px;padding:20px;margin:20px;overflow:auto;border:1px solid #ddd;background:#fff}
+.dep_detail .pt .inner .applier_list{height:400px;overflow-y:hidden;}
+.dep_detail .pt .inner .applier_list:after{display:block;content:"";clear:both;visibility:hidden;}
+.dep_detail .pt .inner .applier_list li{float:left;width:20%;}
+
+
+.dep_detail .button{margin:30px 0;text-align:center}
+.dep_detail .button a{display:inline-block;padding:12px 50px;font-size:20px;background:#002610;color:#fff;text-decoration:none;}
+
+
+/* 보육시설 */
+.select_search_box.children label:before{background-image:url(/images/prog/common/children_icon.png)}
+
+
+/* 위원회서포터즈관리 */
+.loginbox{position:relative;padding:50px 0;border:solid #ddd;border-width:2px 0 1px;border-top-color:#787878}
+
+.loginbox .row{width:50%;margin:10px auto 10px;overflow:hidden}
+.loginbox .row label{float:left;height:38px;line-height:40px;font-weight:700}
+.loginbox .row .form-number{margin-left:100px;overflow:hidden}
+.loginbox .row .form-number .midd{float:left;height:38px;width:10%;line-height:40px;text-align:center}
+.loginbox .row .form-number input{float:left;width:45%}
+.loginbox .row .two{}
+.loginbox .row .two input{}
+
+.loginbox.dubble{}
+.loginbox.dubble .form-number input,
+.loginbox.dubble .two input{width:100%}
+
+.loginbox .tp_icon.circle{position:absolute;left:50px;top:45px;}
+
+.loginbox .bottom_button {position:absolute;right:60px;top:30px;}
+.loginbox .bottom_button .input_button{padding:35px 50px;}
+
+@media(max-width:800px){
+.loginbox .row{width:45%;}
+
+}
+
+@media(max-width:767px){
+.loginbox .tp_icon.circle{display:none;}
+.loginbox .bottom_button {position:static}
+.loginbox .row{width:80%;}
+.loginbox .bottom_button .input_button{width:80%;padding:15px;}
+
+}
+
+
+.warningbox{position:relative;padding:20px 20px 20px 80px;margin:30px 0;overflow:hidden;border:1px solid #f7f7f7;background:#f7f7f7}
+.warningbox .icon{position:absolute;top:20px;left:20px;width:38px;height:38px;background:url(/images/kor/common/warning_icon.png) no-repeat}
+.warningbox p{margin-bottom:10px;line-height:1.3}
+
+
+@media(max-width:767px){
+.warningbox{padding:20px}
+.warningbox .icon{display:none}
+
+}
+
+.bottom_button{margin-top:30px}
+.bottom_button .input_button{display:inline-block;height:auto;padding:15px 50px;line-height:1;font-size:16px;color:#fff}
+.bottom_button .input_button.color1{background:#54535a}
+.bottom_button .input_button.color2{background:#ee402e}
+
+@media(max-width:767px){
+.bottom_button .input_button{padding:15px 20px}
+
+}
+
+@media(max-width:640px){
+.bottom_button .gotofirststep{display:none}
+
+}
+
+
+
+/* 민원서식 자료실 */
+
+.select_search_box.category label{position:relative;width:30%;color:#1a2273;font-weight:600;}
+
+.select_search_box.category .form_block{width:70%;}
+
+.select_search_box.category .cat label,
+.select_search_box.category .cat .form_block{float:none;width:100%;}
+.select_search_box.category .cat .form_block ul{margin-top:10px;}
+.select_search_box.category .cat .form_block ul li{margin:5px 0;width:48%;}
+.select_search_box.category .cat .form_block ul li a{display:block;padding:5px 10px;width:100%;border:1px solid #ccc;text-align:center;word-break:keep-all;word-wrap:break-word;}
+.select_search_box.category .cat .form_block ul li label{font-weight:normal;}
+.select_search_box.category .cat .form_block ul li .ico{display:none;}
+.select_search_box.category .cat .form_block input,
+.select_search_box.category .cat .form_block label{display:inline-block;float:none;width:auto;vertical-align:middle;}
+
+.select_search_box.category .btn-set .form_block .btn.on{background-color:#1a2273;}
+
+
+@media(min-width:640px){
+	.select_search_box.category .cat .form_block ul li{width:33.3%;}
+	.select_search_box.category .checked_block input[type="text"]{width:70%;}
+}
+
+@media(min-width:768px){
+	.select_search_box.category{padding:20px 30px;}
+	.select_search_box.category ul li{float:none;margin:10px 0;width:100%;}
+	.select_search_box.category ul li:after{display:block;content:"";clear:both;visibility:hidden;}
+	.select_search_box.category label{width:15%;text-align:left;}
+	.select_search_box.category label:before{display:none;}
+	.select_search_box.category .form_block{width:20%;}
+	.select_search_box.category .cat .form_block ul{margin-top:0;}
+	.select_search_box.category .cat .form_block ul li{float:left;margin:0;width:20%;text-align:center;}
+	.select_search_box.category .cat .form_block ul li .ico{display:block;margin:0 auto;width:50px;height:50px;background-color:lightblue;border-radius:50%;}
+	.select_search_box.category .cat .form_block ul li.on .ico{background-color:#1a2273;}
+	.select_search_box.category ul li.checked_block{padding-right:0;}
+	.select_search_box.category .checked_block input[type="text"]{float:left;width:60%;}
+	.select_search_box.category .search_box{top:auto;bottom:30px;}
+}
+
+
+

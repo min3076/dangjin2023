@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.tp_icon{display:block;overflow:hidden;width:113px;height:113px;background:url(/images/common/ui/tp_icon.png) no-repeat;}
+.tp_icon.circle1{background-position:0 0;}
+.tp_icon.circle2{background-position:-113px 0;}
+.tp_icon.icon1 {background-position: 0 -113px;}
+.tp_icon.icon2 {background-position: -113px -113px}
+.tp_icon.icon3 {background-position: -226px -113px}
+.tp_icon.icon4 {background-position: -339px -113px;}
+.tp_icon.icon5 {background-position: -452px -113px;}
+.tp_icon.icon6 {background-position: -565px -113px;}
+.tp_icon.icon7 {background-position: -678px -113px;}
+.tp_icon.icon8 {background-position: -791px -113px;}
+.tp_icon.icon9 {background-position: -904px -113px;}
+.tp_icon.icon10 {background-position: 0 -226px;}
+.tp_icon.icon11 {background-position: -113px -226px}
+.tp_icon.icon12 {background-position: -226px -226px}
+.tp_icon.icon13 {background-position: -339px -226px;}
+.tp_icon.icon14 {background-position: -452px -226px;}
+.tp_icon.icon15 {background-position: -565px -226px;}
+.tp_icon.icon16 {background-position: -678px -226px;}
+.tp_icon.icon17 {background-position: -791px -226px;}
+.tp_icon.icon18 {background-position: -904px -226px;}
+.tp_icon.icon19 {background-position: 0 -339px;}
+.tp_icon.icon20 {background-position: -113px -339px}
+.tp_icon.icon21 {background-position: -226px -339px}
+.tp_icon.icon22 {background-position: -339px -339px;}
+.tp_icon.icon23 {background-position: -452px -339px;}
+.tp_icon.icon24 {background-position: -565px -339px;}
+.tp_icon.icon25 {background-position: -678px -339px;}
+.tp_icon.icon26 {background-position: -791px -339px;}
+.tp_icon.icon27 {background-position: -904px -339px;}
+.tp_icon.icon28 {background-position: 0 -452px;}
+.tp_icon.icon29 {background-position: -113px -452px;}
+.tp_icon.icon30 {background-position: -226px -452px;}
+.tp_icon.icon31 {background-position: -339px -452px;}
+.tp_icon.icon32 {background-position: -452px -452px;}
+.tp_icon.icon33 {background-position: -565px -452px;}
+.tp_icon.icon34 {background-position: -678px -452px;}
+.tp_icon.icon35 {background-position: -791px -452px;}
+.tp_icon.icon36 {background-position: -904px -452px;}
+.tp_icon.icon37 {background-position: 0 -565px;}
+.tp_icon.icon38 {background-position: -113px -565px;}
+.tp_icon.icon39 {background-position: -226px -565px;}
+.tp_icon.icon40 {background-position: -339px -565px;}
+.tp_icon.icon41 {background-position: -452px -565px;}
+.tp_icon.icon42 {background-position: -565px -565px;}
+.tp_icon.icon43 {background-position: -678px -565px;}
+.tp_icon.icon44 {background-position: -791px -565px;}
+.tp_icon.icon45 {background-position: -904px -565px;}
+.tp_icon.icon46 {background-position: 0 -678px;}
+.tp_icon.icon47 {background-position: -113px -678px;}
+.tp_icon.icon48 {background-position: -226px -678px;}
+.tp_icon.icon49 {background-position: -339px -678px;}
+.tp_icon.icon50 {background-position: -452px -678px;}
+.tp_icon.icon51 {background-position: -565px -678px;}
+.tp_icon.icon52 {background-position: -678px -678px;}
+.tp_icon.icon53 {background-position: -791px -678px;}
+.tp_icon.icon54 {background-position: -904px -678px;}
+.tp_icon.icon55 {background-position: 0 -791px;}
+.tp_icon.icon56 {background-position: -113px -791px;}
+.tp_icon.icon57 {background-position: -226px -791px;}
+.tp_icon.icon58 {background-position: -339px -791px;}
+.tp_icon.icon59 {background-position: -452px -791px;}
+.tp_icon.icon60 {background-position: -565px -791px;}
+.tp_icon.icon61 {background-position: -678px -791px;}
+.tp_icon.icon62 {background-position: -791px -791px;}
+.tp_icon.icon63 {background-position: -904px -791px;}
+
+

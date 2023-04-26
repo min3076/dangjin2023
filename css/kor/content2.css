@@ -1,0 +1,515 @@
+@charset "utf-8";
+
+
+
+/* 지방세안내 */
+.box .promise_box ul li{position:relative;margin-top:20px}
+.box .ui.uit.type4 .inner .btn.btn-ani{font-size:15px;line-height:24px;padding:10px 25px;top:33px;}
+
+
+
+/* 주소부여체계 작은 탑박스 스타일 */
+.sub01_02_02 .ui.uit.type4 .inner{min-height:0;}
+.sub01_02_02 .ui.uit.type4 .inner p{padding-bottom:0;}
+
+@media all and (min-width:768px){
+	.sub01_02_02 .ui.uit.type4 .inner{padding:40px 20px 40px 120px;}
+}
+
+@media all and (min-width:1200px){
+	.sub01_02_02 .ui.uit.type4 .inner p:before{display:none;}
+}
+
+
+
+/* 민원신청안내 */
+.ui.uip.type2 li.last_child{margin-bottom:0;}
+
+@media all and (min-width:640px){
+	.ui.uip.type2 li.mh-180{min-height:180px;}
+}
+
+@media all and (min-width:768px){
+	.ui.uip.type2 li.mh-180{min-height:0;}
+}
+
+
+/* 신규등록 */
+.inforbox{padding:30px 30px 30px 280px;}
+.sub01_03_01_01 .inforbox{padding:60px 30px 60px 280px;}
+.sub01_03_01_07 .inforbox{padding:70px 30px 70px 280px;}
+.sub05_09_14 .inforbox{padding:60px 30px 60px 280px;}
+
+@media all and (max-width:1023px){
+	.inforbox{padding:30px 30px 30px 280px;}
+	.sub01_03_01_01 .inforbox{padding:60px 30px 60px 280px;}
+	.sub01_03_01_07 .inforbox{padding:70px 30px 70px 280px;}
+}
+
+@media all and (max-width:767px){
+	.inforbox,
+	.sub01_03_01_01 .inforbox,
+	.sub01_03_01_07 .inforbox,
+	.sub05_09_14 .inforbox{padding:30px;}
+}
+
+
+/* 4차메뉴 박스 글자 간격 */
+[class^="sub01_03_01"] .tab-ul.deth-4st li a span{letter-spacing:-1px;}
+
+
+/* 주민참여예산 */
+.wel_info .time_bx ul.time_list{color:#fff;}
+.wel_info .purpose.sub02_02_05 .item{padding:30px 20px;}
+.wel_info .purpose.sub02_02_05 .item .lcon{position:static;}
+.wel_info .txt-tip{font-size:14px;line-height:20px;}
+
+@media all and (min-width:640px){
+	.wel_info .purpose.sub02_02_05 .item{padding-left:130px;}
+	.wel_info .purpose.sub02_02_05 .item .lcon{position:absolute;}
+}
+
+@media all and (min-width:1024px){
+	.wel_info .purpose.sub02_02_05 .item{padding:40px 30px 40px 150px;}
+	.wel_info .purpose.sub02_02_05 .item .lcon{top:30px;}
+}
+
+/* 당진시 비전 */
+@media all and (max-width:639px){
+	#txt .vision_fl li.list01{display:block;margin:0 auto;}
+	#txt .vision_philosophy li{display:block;margin:0 auto 5px auto;width:100%;}
+	#txt .strategy_list li{margin:0 0 20px 0;width:100%;}
+	#txt .together_dj .con_wrap .con_box + .con_box + .con_box + .con_box{margin:0 0 20px 0;}
+	#txt .together_dj .con_wrap .con_box + .con_box + .con_box + .con_box + .con_box + .con_box{margin:0;}
+}
+
+
+/* 탑박스 리스트 스타일 */
+.ui.uit .inner .txtwrap li{background-position:2px 7px;}
+
+
+/* 비공개대상정보 - 아코디언 스타일 */
+#test_accodion2.ui.uia.qna .item{padding-top:0;}
+
+@media all and (max-width:700px){
+	#test_accodion2.ui.uia .item{display:table;padding-bottom:0;width:100%;min-height:0;}
+	#test_accodion2.ui.uia .item:before{display:none;}
+	#test_accodion2.ui.uia .item.ov:after,
+	#test_accodion2.ui.uia .item:after{display:inline-block;}
+	#test_accodion2.ui.uia .item b{display:table-cell;padding-right:15px;line-height:22px;vertical-align:middle;word-wrap:break-word;word-break:keep-all;}
+	#test_accodion2.ui.uia .inner{padding-left:15px;}
+}
+
+
+/* 사전공표대상목록 */
+.select_search_box input[placeholder]{font-size:14px;}
+
+@media all and (min-width:768px){
+	.select_search_box.category .checked_block input[type="text"]{float:right;margin-right:24%;width:66%}
+}
+
+/* 행정서비스헌장이란 */
+#txt .promise_box .f_sign{margin:50px auto 0 auto;padding-left:40px;}
+
+@media all and (max-width:639px){
+	#txt .promise_box .frame{padding:30px 20px;}	
+}
+
+/* h2, h3 글자 내리기 */
+h2, h3{word-break:keep-all;word-wrap:break-word;}
+
+
+/* 역사와 유래 */
+@media all and (max-width:690px){
+	#txt .history_origin div[class^=box_0] div[class^=text_box_0] .number{margin-left:0;padding:5px 10px;border:1px solid #ddd;}
+	#txt .history_origin div[class^=box_0] .text_box_01 p,
+	#txt .history_origin div[class^=box_0] .text_box_02 p{margin-left:0;}
+}
+
+
+/* 탭메뉴 스타일 */
+#txt .box_dept .tab a{padding-right:35px;}
+#txt .box_dept .tab a:before{right:10px;}
+#txt .box_dept .tab a.tab_ov{background-color:#3A5CA4;color:#fff;}
+
+
+/* 자매결연도시 - 국내도시 */
+#txt .uibodo01 .thm_figure01{text-align:center;}
+#txt .uibodo01 .thm_figure01 img{padding-left:0;}
+
+
+/* 자매결연도시- 국외 자매도시 */
+#txt .list_1st.summary li{/*min-height:0;*/word-break:keep-all;word-wrap:break-word;}
+#txt .list_1st.summary li em{display:block;min-height:40px;}
+
+@media all and (max-width:690px){
+	#txt .history_box{padding:20px;}
+	#txt .list_1st.summary li em{min-height:0;}
+}
+
+
+/* 자매결연도시 - 국외 우호친선도시 */
+#txt .list_1st.summary .list li{background-position:2px 7px;}
+.sub04_05_03_08 #txt .list_1st.summary li.full_list{position:relative;padding-left:95px;}
+.sub04_05_03_08 #txt .list_1st.summary li.full_list .ui_icon.bg{position:absolute;left:20px;top:20px;}
+.sub04_05_03_08 #txt .list_1st.summary li.full_list .list{position:relative;}
+
+@media all and (max-width:1023px){
+	.sub04_05_03_05 #txt .list_1st.summary li em{min-height:50px;}	
+}
+
+@media all and (max-width:890px){
+	.sub04_05_03_08 #txt .list_1st.summary li.full_list{padding:20px;}
+	.sub04_05_03_08 #txt .list_1st.summary li.full_list .ui_icon.bg{position:static;}	
+}
+
+@media all and (max-width:690px){
+	.sub04_05_03_05 #txt .list_1st.summary li em{min-height:0;}	
+}
+
+
+/* 항만통계 */
+#txt .ui.uib .uibodo .thm_figure{margin-bottom:15px;}
+
+@media all and (min-width:768px){
+	#txt .ui.uib .uibodo .thm_figure{margin-bottom:0;}
+}
+
+/* 탭메뉴 스타일 */
+.tab-ul.deth-4st li a span{word-break:keep-all;word-wrap:break-word;}
+
+/* 오시는길 */
+#txt .box_local .lst_local{display:block;}
+#txt .box_local .lst_local li b{margin-right:10px;}
+#txt .box_local .lst_local li.last a{margin:0 auto;width:260px;}
+
+@media all and (min-width:751px){
+	#txt .box_local .lst_local{padding-left:0;}
+}	
+
+@media all and (min-width:768px){
+	#txt .box_local .lst_local{display:inline-block;padding-left:34px;}
+	#txt .box_local .lst_local li.last a{width:100px;}
+}
+
+
+/* 3농 혁신이란 */
+.sub05_04_04_01 .uit.type6{height:auto;}
+
+
+/* 당진시장 */
+#txt .view_info .rbgw .bbg ul,
+#txt .view_info .rbgw .gbg span{display:block;margin-top:10px;padding-left:0;word-break:keep-all;word-wrap:break-word;}
+
+@media all and (min-width:768px){
+	#txt .view_info .rbgw .bbg ul,
+	#txt .view_info .rbgw .gbg span{margin-top:0;padding-left:65px;}
+}
+
+
+/* 당진사랑상품권 */
+@media all and (min-width:768px){
+	.sub05_06_08_03 .ui.uib.type1 .uibodo .thm_caption{padding-top:20px;}
+}
+
+@media all and (min-width:1024px){
+	.sub05_06_08_03 .ui.uib.type1 .uibodo .thm_caption{padding-top:30px;}
+}
+
+@media all and (min-width:1280px){
+	.sub05_06_08_03 .ui.uib.type1 .uibodo .thm_caption{padding-top:40px;}
+}
+
+/* 시외버스시간 */
+@media all and (max-width:1199px){
+	.sub05_07_05 .uit3 .icowrap{padding-right:330px;}
+}
+
+@media all and (max-width:768px){
+	.sub05_07_05 .uit3 .icowrap{padding:30px 20px;}
+	.sub05_07_05 .uit3 .icowrap .btn{margin-top:5px;}	
+}
+
+
+/* 환경보전종합계획 */
+.sub05_09_01 .ui.uia.qna .item{padding-top:0;}
+.sub05_09_01 .yesan_lst>li>b{word-break:keep-all;word-wrap:break-word;}
+
+@media all and (max-width:459px){
+	.sub05_09_01 .ui.uia .item b{margin-left:0;padding-right:5px;font-size:14px;}
+}
+
+
+/* 늘푸른당진가꾸기 */
+.sub05_09_02 .openlist .ui.uit .inner .s8_ico{display:block;overflow:hidden;background:#4f5262 url(/images/kor/common/ui_icon.png) no-repeat}
+.sub05_09_02 .openlist .ui.uit .inner .radius.small .oico1{background-position:-372px -516px}
+.sub05_09_02 .openlist .ui.uit .inner .radius.small .oico2{background-position:-553px -516px}
+.sub05_09_02 .openlist .ui.uit .inner .radius.small .oico3{background-position:-250px -516px}
+.sub05_09_02 .openlist .ui.uit .inner .radius.small .oico4{background-position:-310px -516px}
+.sub05_09_02 .openlist .ui.uit .inner .radius.small .oico5{background-position:-67px -516px}
+.sub05_09_02 .openlist .ui.uit .inner .radius.small .s8_ico.oico6{position:static;margin:0;width:51px;height:51px;background-position:-129px -516px}
+
+
+/* 체계도 */
+.sub05_04_04_04 .organ{padding:0;} 
+.sub05_04_04_04 .organ:before{left:10px;height:176px;}
+.sub05_04_04_04 .kor_040404.organ .lv2{margin-left:20px;}
+.sub05_04_04_04 .kor_040404.organ .lv2 em{margin-left:0;width:48%;}
+.sub05_04_04_04 .kor_040404.organ .lv2 em:after{z-index:-1;margin-left:-15px;}
+.sub05_04_04_04 .kor_040404.organ .lv2.aborg:after{display:block;content:"";clear:both;visibility:hidden;}
+.sub05_04_04_04 .kor_040404.organ .lv2.aborg em{float:left;}
+.sub05_04_04_04 .kor_040404.organ .lv2.aborg em:first-child{margin-right:10px;}
+.sub05_04_04_04 .kor_040404.organ .lv3{position:relative;margin-left:40px;padding-left:0;overflow:visible;}
+.sub05_04_04_04 .kor_040404.organ .lv3:before{display:block;content:"";position:absolute;left:-15px;top:-25px;z-index:-1;width:1px;height:85.8%;background-color:#ccc;}
+.sub05_04_04_04 .kor_040404.organ .lv3 > div{width:48%;}
+.sub05_04_04_04 .kor_040404.organ .lv3 dl dt{position:relative;}
+.sub05_04_04_04 .kor_040404.organ .lv3 dl dt:before{display:inline-block;content:"";position:absolute;left:-15px;top:50%;z-index:-1;width:15px;height:1px;background-color:#ccc;}
+.sub05_04_04_04 .kor_040404.organ .lv3 dl dt>a,
+.sub05_04_04_04 .kor_040404.organ .lv3 dl dt>em{word-break:keep-all;word-wrap:break-word;}
+
+
+@media all and (min-width:768px){
+	.sub05_04_04_04 .kor_040404{background:none;}
+	.sub05_04_04_04 .kor_040404.organ:before{display:block;content:"";position:absolute;left:50%;top:0;width:1px;height:230px;background-color:#ddd;}
+	.sub05_04_04_04 .kor_040404.organ .lv2{margin:0 auto;}
+	.sub05_04_04_04 .kor_040404.organ .lv2 em{width:100%;}
+	.sub05_04_04_04 .kor_040404.organ .lv2.aborg:before{display:block;content:"";position:absolute;left:-60px;top:55%;z-index:-1;width:90px;height:1px;background-color:#ddd;}
+	.sub05_04_04_04 .kor_040404.organ .lv2.aborg em{float:none;}
+	.sub05_04_04_04 .kor_040404.organ .lv3{margin:70px auto 0;}
+	.sub05_04_04_04 .kor_040404.organ .lv3:before{left:0;top:-36px;z-index:1;width:100%;height:1px;}
+	.sub05_04_04_04 .kor_040404.organ .lv3 .ln_first:before{z-index:10;}	
+	.sub05_04_04_04 .kor_040404.organ .lv3 dt.ln_last:before{display:block;content:"";position:absolute;left:auto;right:-5%;top:-36px;z-index:10;width:55%;height:1px;background:#fff;}
+	.sub05_04_04_04 .kor_040404.organ .lv3 > div{width:18%;}
+	.sub05_04_04_04 .kor_040404.organ .lv3 > div:after{height:36px;}
+	.sub05_04_04_04 .kor_040404.organ .lv3 dl dt:before{display:none;}
+}
+
+
+/* 시정원칙 */
+@media all and (min-width:768px){
+	.sub03_01_02 #diagram_wrap .step_list li{margin-top:0;overflow:visible;}
+	.sub03_01_02 #diagram_wrap .step_list li strong:after{top:-3px;}
+}
+
+@media all and (min-width:1280px){
+	.sub03_01_02 #diagram_wrap .step_list li div{padding-top:30px;}
+}
+
+
+
+
+/*  온라인출생신고 */
+.imgp{width:49%;float:left;}
+.imgr{width:49%;float:right;}
+.imgp img{margin:0 auto; border-top:1px solid #666;padding:24px 30px; background:#f2f2f2;width:100%;}
+.online_12 .btn-ani{margin-top:20px;}
+.online_13.purpose.sub02_02_05 >.item{min-height:206px;} 
+.purpose.sub02_02_05 .item .rcon span{color:#f40707;}
+.fl_cl{clear:both;display:inline-block;width:100%;}
+.imgr .line2035_list ul.st > li{padding:15px 30px;}
+
+@media all and (max-width:1040px){
+.online_12 .ui.uip.type3 li{min-height:65px;line-height:65px;}
+
+}
+
+@media all and (max-width:768px){	
+.imgp{width:100%;}
+.imgp img{width:65%;}
+.imgr{width:100%;}
+}
+@media all and (max-width:639px){	
+.online_13.purpose.sub02_02_05 > .item{padding-left:30px;}
+}
+@media all and (max-width:400px){
+	.imgp img{width:100%;}
+}
+
+
+
+
+
+/* 경관옥외광고-당진시경관자원조사 */
+.line2035_list ul.st > li { padding: 15px 10px;border-bottom: 1px dotted #ddd;}
+.line2035_list {width: 100%;border-top: 1px solid #666;}
+.estab-cont {position:relative;overflow:hidden;margin:50px 0}
+.estab-cont:before {position:absolute;top:190px;left:0;content:"";display:block;width:100%;height:2px;background:url(/images/kor/sub05/estab_dot_line.gif) repeat-x;z-index: -2;}
+.estab-cont .txtbox {position: relative;display: block;width: 100%; margin: 0 0 20px 0;text-align: center; background: #005aab url(/images/kor/sub05/c_patt.png) repeat;color: #fff;font-size: 19px;padding: 11px 0;}
+.estab-cont .estab-list {float:left;width:33.33333%;box-sizing:border-box;padding: 0 40px;}
+/*.estab-cont .estab-list:before {content:"";display:block;width:185px;height:174px;background:url(/kor/_Img/Content/estab_spr.png) no-repeat}*/
+.estab-cont .estab-list .tit {position:relative;line-height:1.6;margin:0 0 15px 0;font-size:19px;color:#005aab;text-align: center;}
+.estab-cont .estab-list .tit:before {position:absolute;top:0;left:0;content:"";font-family:"arial";font-size:60px;color:#eee;line-height: 60px;z-index: -1;}
+.estab-cont .estab-list .tit.t1:before{content:"1";}
+.estab-cont .estab-list .tit.t2:before{content:"2";}
+.estab-cont .estab-list .tit.t3:before{content:"3";}
+
+.estab-cont .estab-list b{display:block;font-weight:600;}
+.estab-cont .estab-list .txt .e-tit {display:block;font-size:15px;text-align: center;padding: 20px;color:#fff;font-weight:bold;line-height: 1.4;}
+.estab-cont .estab-list .txt {position:relative;margin-top:10px;min-height: 85px;}
+.estab-cont .estab-list .txt:before {position:absolute;top:0;left:0;content:"";min-height: 85px;display:block;width:100%;height:100%;}
+.estab-cont .estab-list .txt.img1:before{background:url(/images/kor/sub05/sub05_14_02_estab01.jpg) no-repeat;z-index: -1;background-size: cover;}
+.estab-cont .estab-list .txt.img2:before{background:url(/images/kor/sub05/sub05_14_02_estab02.jpg) no-repeat;z-index: -1;background-size: cover;}
+.estab-cont .estab-list .txt.img3:before{background:url(/images/kor/sub05/sub05_14_02_estab03.jpg) no-repeat;z-index: -1;background-size: cover;}
+
+@media only screen and (max-width:960px){
+	.estab-cont .estab-list {position:relative;float:none;width:auto;margin-bottom:20px;padding-bottom:15px;border-bottom:1px solid #ccc;min-height:77px;box-sizing:content-box;}
+	.estab-cont:before {display:none;}
+	.estab-cont .estab-list:before {position:absolute;top:0;left:0;content:"";display:block;width:79px;height:77px;background:url(/kor/_Img/Content/estab_spr.png) no-repeat;background-size:286px auto}
+	.estab-cont .estab-list .tit {padding-top:15px;margin-top:0;}
+	.estab-cont .estab-list b{display:inline;}
+	.estab-cont .estab-list:first-child:before {background-position:-198px -283px}
+	.estab-cont .estab-list:nth-child(2):before {background-position:-198px -140px}
+	.estab-cont .estab-list:last-child:before {background-position:-198px 0}
+	.estab-cont .estab-list .txt {margin-top:5px;line-height:1.3}
+}
+
+
+/* 위원회 */
+.organiz_box{overflow:hidden; border:1px solid #dedede; padding:40px;}
+.organiz_box > ul > li {background:url(/images/kor/common/org_depth_row.gif) no-repeat left top; padding-left:30px;}
+.organiz_box > ul > li:first-child{ background:url(/images/kor/common/org_depth_row_top.gif) no-repeat left top;}
+.organiz_box > ul > li:last-child{ background:url(/images/kor/common/org_depth_row_bot.gif) no-repeat left top;}
+.organiz_box ul li span{background:#005aab url(/images/kor/common/org_patt2.png) repeat; color:#fff;  font-family:'NanumSquare'; font-size:17px; font-weight:600; width:200px; height:50px; line-height:28px; padding-top:10px; display:block;  text-align:center; margin-bottom:10px;}
+.organiz_box ul li span.bg_yg{background:#fff; color:#333;  font-family:'NanumSquare'; font-size:17px; font-weight:600; width:200px; height:50px; line-height:28px; padding-top:10px; display:block; border:2px solid #64b12e; text-align:center; margin-bottom:10px;}
+.organiz_box ul li ul{margin-left:30px;}
+.organiz_box ul li ul li{padding:5px 0 0;}
+.organiz_box ul li ul li:last-child{padding:5px 0 30px 0;}
+.organiz_box ul li ul li div {position:relative; background:url(/images/kor/common/org_box_bg.gif) repeat-y left top; overflow:hidden; border:1px solid #dcd8d3; padding:15px 10px 8px 220px; border-radius:2px;}
+.organiz_box ul li ul li div.bg_yg2 {position:relative; background:url(/images/kor/common/org_box_bg2.gif) repeat-y left top; overflow:hidden; border:1px solid #d5dcd3; padding:15px 10px 18px 220px; border-radius:2px;}
+
+.organiz_box ul li ul li div dt{position:absolute; left:15px; top:14px; width:220px; text-align:left; height: auto; font-size:16px; color:#000; font-family:'NanumSquare'; font-weight:500;}
+.organiz_box ul li ul li div dt a{color:#257dcc;font-size: 16px;}
+.organiz_box ul li ul li div dd{float:left;}
+.organiz_box ul li ul li div dd a{font-size:14px;  border-right:1px solid #ccc; padding-right:10px; margin-right:10px; margin-bottom:5px; color:#666; display:inline-block;}
+.organiz_box ul li ul li div dd a:hover{text-decoration:underline;}
+.organiz_box ul li ul li div dl dd:last-child a{ border-right:none;}
+
+.organiz_box p.org_tt{padding:10px 0 10px 0; border-bottom:1px dotted #ccc; margin-bottom:20px;}
+
+@media all and (max-width:992px) {
+
+	.organiz_box{padding:20px;}
+	.organiz_box > ul > li {background:none; padding-left:0;}
+	.organiz_box > ul > li:first-child{ background:none;}
+	.organiz_box > ul > li:last-child{ background:none;}
+	.organiz_box ul li span{width:100%; box-sizing:border-box; height:50px;}
+	.organiz_box ul li span.bg_yg{width:100%; box-sizing:border-box; height:50px;}
+
+	.organiz_box ul li ul{margin-left:0;}
+	.organiz_box ul li ul li{padding:5px 0 0;}
+	.organiz_box ul li ul li:last-child{padding:5px 0 30px 0;}
+	.organiz_box ul li ul li div {position:relative; background:none; padding:10px ;}
+	.organiz_box ul li ul li div.bg_yg2 {position:relative; background:none; padding:10px;}
+
+	.organiz_box ul li ul li div dt{position:inherit; left:0; top:6px; width:100%; font-family:inherit; text-align:center; height: auto; font-size:15px; color:#333; background:#fbf4eb; height:40px; line-height:40px; margin-bottom:15px;}
+	.organiz_box ul li ul li div.bg_yg2 dt{position:inherit; left:0; top:0; width:100%; text-align:center; height: auto; font-size:15px; color:#333; background:#f2f8ed; height:34px; line-height:34px; margin-bottom:15px;}
+	.organiz_box ul li ul li div dt a{color:#333;}
+	.organiz_box ul li ul li div dd{float:left; }
+	.organiz_box ul li ul li div dd a{font-size:14px;  border-right:1px solid #ccc; padding-right:10px; margin:0 10px 10px; color:#666;}
+	.organiz_box ul li ul li div dd a:hover{text-decoration:underline;}
+	.organiz_box ul li ul li div dl dd:last-child a{ border-right:none;}
+}
+
+/*수요야간민원_전문가무료법률상담__신청페이지*/
+/*공통사용*/
+.reservationWrap .section {width: 100%; margin-bottom:50px;}
+.reservationWrap .section span.txt {float:left; margin-left:10px;}
+.reservationWrap .section h3.title {float: left; font-size: 22px; font-weight: bold; font-family: 'nsr','Malgun Gothic'; color: #0357a4; margin:0 0 20px 0;}	
+.reservationWrap .section .info {float: right; margin-bottom: 20px;}
+.reservationWrap .section .info span {display: inline-block; color: #111; padding: 4px 20px; border-radius: 10px;}
+.reservationWrap .section .info .not {border: 1px solid #ddd; background: url(/images/common/bg_pattern2.png);}
+.reservationWrap .section .info .ok {border: 1px solid #ccc; background-color: #fff;}
+.reservationWrap .section .info .select {border: 1px solid #3589d7; background-color: #3589d7; color: #fff;}
+
+/*날짜선택*/
+.reservationWrap .calendarArea {width: 100%; margin-top:30px;}
+.reservationWrap .calendarArea .calendar {width: 100%; padding:0; display: inline-block;}
+.reservationWrap .calendarArea .calendar .calHeader {position: relative; text-align: center;}
+.reservationWrap .calendarArea .calendar .calHeader .calDate {display: inline; font-size: 36px; font-weight: bold; line-height: 100%; color: #000; letter-spacing: -2px;}
+.reservationWrap .calendarArea .calendar .calHeader .calBtn {position: absolute; top: 5px; line-height: 30px; cursor: pointer; top: 5px; line-height: 30px;}
+.reservationWrap .calendarArea .calendar .calHeader .prev {left: 0; padding-left: 40px;}
+.reservationWrap .calendarArea .calendar .calHeader .next {right: 0; padding-right: 40px;}
+.reservationWrap .calendarArea .calendar .calHeader .calBtn i {position: absolute; border-color:#fff; border-right-width:1px; border-bottom-width:1px; border-right-style:solid; border-bottom-style:solid; width:10px; height: 10px; top:11px; z-index: 100;}	
+.reservationWrap .calendarArea .calendar .calHeader .prev i {transform:rotate(135deg); -webkit-transform:rotate(135deg); left: 13px;}
+.reservationWrap .calendarArea .calendar .calHeader .next i {transform:rotate(-45deg); -webkit-transform:rotate(-45deg); right:13px;}
+.reservationWrap .calendarArea .calendar .calHeader .prev:after {position:absolute; top:0; left:0; width:32px; height:32px; border-radius:50%; background-color:#6a7179; content:'';}
+.reservationWrap .calendarArea .calendar .calHeader .next:after {position:absolute; top:0; right:0; width:32px; height:32px; border-radius:50%; background-color:#6a7179; content:'';}
+
+/*캘린더 UI*/
+.reservationWrap .calendarArea .calendar .schcal_tbl {width: 100%; margin-top: 27px; border-top: 1px solid #555;}
+.reservationWrap .calendarArea .calendar .schcal_tbl th {padding: 12px 0; border-bottom: 1px solid #aaa; font-weight: bold; text-align: center;}
+.reservationWrap .calendarArea .calendar .schcal_tbl td {border-left: 1px solid #ccc; border-bottom: 1px solid #ccc; font-weight: 400; text-align: center; vertical-align: top; cursor: pointer;}
+.reservationWrap .calendarArea .calendar .schcal_tbl td:first-child {border-left: none;}
+.reservationWrap .calendarArea .calendar .schcal_tbl td.selected {background-color: #3589d7; font-weight: bold;}
+.reservationWrap .calendarArea .calendar .schcal_tbl td.selected a {color: #fff;}	
+.reservationWrap .calendarArea .calendar .schcal_tbl td.off {background-color: #fafafa;}
+.reservationWrap .calendarArea .calendar .schcal_tbl td.holiday {background: url(/images/common/bg_pattern2.png);}
+.reservationWrap .calendarArea .calendar .schcal_tbl td div {width:100%; height: 70px;}	
+.reservationWrap .calendarArea .calendar .schcal_tbl td a {display: block; width: 100%; height: 100%;}
+.reservationWrap .calendarArea .calendar .schcal_tbl td.sat, .reservationWrap .calendarArea .calendar .schcal_tbl td.sat a {color: #1473b5; font-weight: 500;}
+.reservationWrap .calendarArea .calendar .schcal_tbl td.sun, .reservationWrap .calendarArea .calendar .schcal_tbl td.sun a {color: #c30c57; font-weight: 500;}
+
+/*업무, 시간선택 공통*/
+.reservationWrap .section .BtnGroup {width: 100%; display: inline-block; margin:0;}	
+.reservationWrap .section .BtnGroup li {display: table; float: left; width: 25%; height: 100%; margin-top: -1px; vertical-align: middle;}
+
+/*업무선택*/
+.reservationWrap .workArea .BtnGroup ul {padding:0; margin:0; list-style: none; display: flex; align-items: center; justify-content: center;}
+.reservationWrap .workArea .BtnGroup ul li {position: relative; margin-right:10px; text-align: center;}
+.reservationWrap .workArea .BtnGroup ul li:nth-child(5) {margin-right:0;}
+.reservationWrap .workArea .BtnGroup ul li .workBtn {padding:20px 0; border:1px solid #ccc;}
+.reservationWrap .workArea .BtnGroup ul li .workBtn label {display: block; color:#555;}
+.reservationWrap .workArea .BtnGroup ul li.wd {width:40%;}
+.reservationWrap .workArea .BtnGroup ul li input[type="radio"] {position: absolute; display: flex; opacity: 0; width:100%; height: 100%; z-index: 100; cursor: pointer;}
+.reservationWrap .workArea .BtnGroup ul li input[type="radio"]:checked ~ .workBtn {background-color: #3589d7; border: 1px solid #3589d7;}
+.reservationWrap .workArea .BtnGroup ul li input[type="radio"]:checked ~ .workBtn label {color:#fff;}
+
+/*시간선택*/
+.reservationWrap .timeArea .BtnGroup div ul li {position: relative; text-align: center;}
+.reservationWrap .timeArea .BtnGroup div .lsat_btn_width li:last-child {width:25.1%} /*법률상담예약 페이지*/
+.reservationWrap .timeArea .BtnGroup div ul li div.timeBtn {padding:20px 0; border:1px solid #ddd; border-right:none;}
+.reservationWrap .timeArea .BtnGroup div ul li div.timeBtn label {display: block; color:#555;}
+.reservationWrap .timeArea .BtnGroup div ul li:nth-child(4) > .timeBtn {border-right:1px solid #ddd;}
+.reservationWrap .timeArea .BtnGroup div ul li:nth-child(8) > .timeBtn {border-right:1px solid #ddd;}
+.reservationWrap .timeArea .BtnGroup div ul li:last-child > .timeBtn {border-right:1px solid #ddd;}
+/*.reservationWrap .timeArea .BtnGroup div ul li:nth-child(12) > .timeBtn {border-right:1px solid #ddd;}*/
+.reservationWrap .timeArea .BtnGroup div ul li input[type="radio"] {position: absolute; display: flex; opacity: 0; width:100%; height: 100%; z-index: 100; cursor: pointer;}
+.reservationWrap .timeArea .BtnGroup div ul li input[type="radio"]:checked ~ .timeBtn {background-color: #3589d7; border: 1px solid #3589d7;}
+.reservationWrap .timeArea .BtnGroup div ul li input[type="radio"]:checked ~ .timeBtn label {color:#fff;}
+.reservationWrap .timeArea .BtnGroup div ul li input[type="radio"].not {pointer-events: none;}
+.reservationWrap .timeArea .BtnGroup div ul li input[type="radio"].not ~ .timeBtn {background: url(/images/common/bg_pattern2.png);}
+
+
+/*상담내용__법률상담쪽에 붙일 내용*/
+.reservationWrap .txtArea
+.reservationWrap .txtArea .txtBox {width: 100%; height: auto;}
+.reservationWrap .txtArea .txtBox textarea {width: 100%; border:1px solid #ddd; resize: none; padding:20px;}
+.reservationWrap .txtArea .txtBox textarea::placeholder {color:#aaa;}
+.reservationWrap .txtArea .txtBox textarea::-webkit-input-placeholder {color:#aaa;} 
+.reservationWrap .txtArea .txtBox textarea::-moz-placeholder {color:#aaa;} 
+.reservationWrap .txtArea .txtBox textarea:-ms-input-placeholder {color:#aaa;} 
+.reservationWrap .txtArea .txtBox textarea:-moz-placeholder {color:#aaa;}
+
+/*신청버튼*/
+.btnArea {margin-top: 30px; text-align: center;}
+
+/*반응형*/
+@media (max-width: 680px) {
+	.reservationWrap .workArea .BtnGroup ul {display: inline; }
+	.reservationWrap .workArea .BtnGroup ul li {width:100%;}
+	.reservationWrap .workArea .BtnGroup ul li.wd {width:100%;}
+}
+
+@media screen and (max-width: 460px){
+	.reservationWrap .calendarArea .calendar .calHeader .calDate {font-size: 28px;}
+}
+
+@media screen and (max-width: 320px){
+	.reservationWrap .calendarArea .calendar .calHeader .calDate {font-size: 25px; line-height: initial;}
+	.reservationWrap .calendarArea .calendar .calHeader .calBtn i {border-color: #555; top: 10px;}
+	.reservationWrap .calendarArea .calendar .calHeader .prev {padding-left: 30px;}
+	.reservationWrap .calendarArea .calendar .calHeader .next {padding-right: 30px;}
+	.reservationWrap .calendarArea .calendar .calHeader .prev:after {display: none;}
+	.reservationWrap .calendarArea .calendar .calHeader .next:after {display: none;}
+	.reservationWrap .calendarArea .calendar .schcal_tbl td div {height: 50px;}
+}

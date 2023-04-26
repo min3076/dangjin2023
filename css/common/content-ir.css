@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+
+/* ���������� ž�ڽ�  */
+.ui_icon{display:block;overflow:hidden;background:url(/images/common/ui/ui_icon.png) no-repeat;}
+.ui_icon.radius{background-position:0 -244px;}   
+.ui_icon.icon1{background-position:0 -305px;}
+.ui_icon.icon2{background-position:-61px -305px;}
+.ui_icon.icon3{background-position:-122px -305px;}
+.ui_icon.icon4{background-position:-183px -305px;}
+.ui_icon.icon5{background-position:-244px -305px;}
+.ui_icon.icon6{background-position:-305px -305px;}
+.ui_icon.icon7{background-position:-366px -305px;}
+
+
+.ir-content{display:inline-block;overflow:hidden;background:url(/images/common/ir-content.png) no-repeat;}
+.report_ch li .ir-01 {background-position: 0px 0px;}
+.report_ch li .ir-02 {background-position: -71px 0px;}
+.report_ch li .ir-03 {background-position: -142px 0px;}
+.report_ch li .ir-04 {background-position: -213px 0px;}
+.report_ch li .ir-05 {background-position: -284px 0px;}
+
+.ui_icon.radius.hide{}
+
+
+
+/* bg_ico_big ������� ž�ڽ� */
+.uit2 .inner.icowrap{position:relative;padding:50px 50px 50px 280px} 
+.uit2 .inner.icowrap.pl_40{padding-left:40px;}
+.uit2 .inner.icowrap .ico{position:absolute;left:50px;top:33px;display:inline-block;width:200px;min-height:200px;background:url(/images/common/bg_ico_big.png);}
+.uit2 .inner.icowrap .ico.ico1{background-position:0 0%}
+.uit2 .inner.icowrap .ico.ico2{background-position:-200px 0%} 
+.uit2 .inner.icowrap .ico.ico3{background-position:-400px 0%}
+.uit2 .inner.icowrap .ico.ico4{background-position:-570px 0%} 
+.uit2 .inner.icowrap .ico.ico5{background-position:-760px 0%} 
+.uit2 .inner.icowrap .ico.ico6{background-position:-950px 0%} 
+.uit2 .inner.icowrap .ico.ico7{background-position:-1140px 0%} 
+.uit2 .inner.icowrap .ico.ico8{background-position:-1330px 0%} 
+.uit2 .inner.icowrap .ico.wico1{background-position:0 -200px} 
+.uit2 .inner.icowrap .ico.wico2{background-position:-190px -200px}
+.uit2 .inner.icowrap .ico.wico3{background-position:-380px -200px}
+.uit2 .inner.icowrap .ico.wico4{background-position:-570px -200px} 
+.uit2 .inner.icowrap .ico.wico5{background-position:-760px -200px}  
+.uit2 .inner.icowrap .ico.wico6{background-position:-950px -200px}
+.uit2 .inner.icowrap .ico.wico8{background-position:-1331px -200px}
+.uit2 .inner.icowrap .ico.hico1{background-position:0 -400px;}
+.uit2 .inner.icowrap .ico.hico2{background-position:-190px -400px;}
+.uit2 .inner.icowrap .ico.hico3{background-position:-380px -400px;}
+.uit2 .inner.icowrap .ico.hico4{background-position:-190px -400px;}
+.uit2 .inner.icowrap .ico.hico5{background-position:-570px -400px;}  
+.uit2 .inner.icowrap .ico.hico5{background-position:-760px -400px;} 
+.uit2 .inner.icowrap .ico.hico7{background-position:-950px -400px;} 
+
+.uit2 .inner.icowrap .btn {/*background:#c2182d;*/border:1px solid #5a5867;padding:10px 30px;}
+.uit2 .inner.icowrap .c_grey{background:#757380;border:1px solid #757380;}
+.uit2 .inner.icowrap .c_red{background:#c2182d;border:1px solid #c2182d;}
+
+@media only screen and (max-width: 768px) {
+.uit2 .inner.icowrap .ico{display:none;}
+.uit2 .inner.icowrap {padding: 30px 20px;}
+}
+
+
+/* bg_ico_big ������� ž�ڽ� */
+.uit3 .icowrap {position:relative;padding:50px 350px 50px 50px;}
+.uit3 .icowrap .ico{position:absolute;right:70px;top:28px;display:inline-block;width:200px;min-height:200px;background:url(/images/common/bg_ico_big.png);}
+.uit3 .icowrap .ico.ico1{background-position:0 -600px}
+.uit3 .icowrap .ico.ico2{background-position:-200px -600px} 
+.uit3 .icowrap .ico.ico3{background-position:-400px -600px} 
+.uit3 .icowrap .ico.ico4{background-position:-600px -600px} 
+.uit3 .icowrap .ico.ico5{background-position:-800px -600px} 
+
+
+.uit3 .icowrap .btn {background:#c2182d;border:1px solid #5a5867;padding:10px 30px;}
+.uit3 .icowrap .c_grey{background:#757380;border:1px solid #757380;}
+.uit3 .icowrap .c_red{background:#c2182d;border:1px solid #c2182d;}
+
+@media only screen and (max-width: 768px) {
+.uit3 .icowrap  {padding: 30px 20px;}
+.uit3 .icowrap .ico{display:none;}
+}
+
+
+.sm-icon{display:inline-block;overflow:hidden;width:22px;height:22px;background:url(/images/common/sm-icon.png);}
+.smi1{background-position:-1px -1px; }
+.smi2{background-position:-5px -1px; }
